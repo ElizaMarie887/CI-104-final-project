@@ -7,61 +7,67 @@
     <title>Eliza's Travel Planner</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- Required for Nav Bar/Hamburger  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body id="travelBody">
 
     <div>
-      <h1>Eliza's Travel Planner!</h1> 
+      <h1 id="header">Eliza's Travel Planner!</h1> 
       <img src="https://thumbs.dreamstime.com/b/time-to-travel-wooden-sign-beach-background-49509295.jpg" alt="">
     </div>
 <br>
 <br>
 <!-- Travel Itineraries Section -->
     <div id="travelItineraries">
-        <h3>Travel Iteineraries<h3>
-        <h4>Travel Plans to keep track of:</h4>    
-        <h4>(example: Delta Airlines 2:30pm Flight)</h4>
-        <br>
-        <ul id="ulTravelList">
+        <form>
+            <h3 id="TI">Travel Iteineraries<h3>
+            <br>
+            <h4>Travel Plans to keep track of:</h4>    
+            <h4>(example: Delta Airlines 2:30pm Flight)</h4>
+            <br>
+            <ul id="ulTravelList">
 
-        </ul>
-        <input id="travelText" type="text">
-        <button id="addTravelButton">Add Plans!</button>
+            </ul>
+            <input id="travelText" type="text">
+            <button id="addTravelButton">Add Plans!</button>
+        </form>
         <br>
         <br>
     </div>
 
 <!-- Places to see or Meetings Section  -->
     <div id="placesMeetings">
-        <h3>Places to go & Meetings</h3>
-        <h4>Place all the places you would like to visit or meetings you may have below:</h4> 
-        <h4>(Example: Visit Empire State Building or 10:30am - class)</h4>
-        <br>
-        <ul id="ulPlacesMeetings">
+        <form>
+            <h3 id="PM">Places to go & Meetings</h3>
+            <br>
+            <h4>Place all the places you would like to visit or meetings you may have below:</h4> 
+            <h4>(Example: Visit Empire State Building or 10:30am - class)</h4>
+            <br>
+            <ul id="ulPlacesMeetings">
 
-        </ul>
-        <input id="placesMeetingText" type="text">
-        <button id="addPlacesMeetingButton">Add Plans!</button>
+            </ul>
+            <input id="placesMeetingText" type="text">
+            <button id="addPlacesMeetingButton">Add Plans!</button>
+        </form>
         <br>
         <br>
     </div>
     
 <!-- Packing List Section -->
     <div>
-        <h3>Packing List</h3>
-        <h4>List of all things you need to pack:</h4>
-        <h4>(Example: Toothbrush or 3 sets of clothes)</h4>
-        <br>
-        <ul id="ulPackingList">
+        <h3 id="PL">Packing List</h3>
+        <form>
+            <br>
+            <h4>List of all things you need to pack:</h4>
+            <h4>(Example: Toothbrush or 3 sets of clothes)</h4>
+            <br>
+            <ul id="ulPackingList">
 
-        </ul>
-        <input id="packingListText" type="text">
-        <button id="addPackingListButton">Add Item!</button>
+            </ul>
+            <input id="packingListText" type="text">
+            <button id="addPackingListButton">Add Item!</button>
+        </form>
         <br>
         <br>
-
     </div>
 
 
