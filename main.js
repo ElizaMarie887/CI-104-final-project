@@ -17,6 +17,8 @@ addTravelButton.addEventListener('click', function(event){
     travelText.value = "";
 })
 
+//Click to Strike-Through Completed Tasks
+
 emptyTravelList.addEventListener('click', function (event){
     let element = event.target
     element.style.textDecoration = "line-through"
@@ -43,6 +45,8 @@ addPlaceMeetingButton.addEventListener('click', function (event){
     placeMeetingText.value = "";
 })
 
+//Click to Strike-Through Completed Tasks
+
 emptyPlacesMeetingList.addEventListener('click', function (event){
     let element = event.target
     element.style.textDecoration = "line-through"
@@ -67,6 +71,8 @@ addPackingListButton.addEventListener('click', function(event){
     emptyPackingList.appendChild(packingItem);
     packingListText.value = "";
 })
+
+//Click to Strike-Through Completed Tasks
 
 emptyPackingList.addEventListener('click', function (event){
     let element = event.target
