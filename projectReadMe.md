@@ -9,7 +9,7 @@ This application will allow you to do diffent task that are always important to 
 - Travel Itineraries
     A place in which you can list all of your travel plans, everything from departure times to larger travel confirmation information.
 
-- Plac4s to go & Meetings
+- Places to go & Meetings
     A place in which you can list all of your meetings and places you would like to visit. This works if we are traveling for business or pleasure alike as both types of trips usually have a list of things we would like to do.
 
 - Packing List
